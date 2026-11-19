@@ -1,5 +1,5 @@
 // Naikkan versi ini setiap kali kamu update index.html agar cache lama terganti
-const VERSION = 'siperpus-v1';
+const VERSION = 'siperpus-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
