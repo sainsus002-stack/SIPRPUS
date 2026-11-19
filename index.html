@@ -427,7 +427,7 @@ function toast(title,type,detail){
   el.onclick=bye;setTimeout(bye,type==='err'?5200:3400);
 }
 // URL web app Apps Script (Deploy > Web app > salin URL berakhiran /exec)
-var GAS_URL='PASTE_URL_EXEC_DI_SINI';
+var GAS_URL='https://script.google.com/macros/s/AKfycbyxP2i1B1VZ8eydFYzlRlRtIsErl0E6RWDEh6ubQK1U8G2KHQNrfE-BMLVqlvLedUhuWQ/exec';
 function api(action,data){
   var body=Object.assign({action:action,pw:ADMPW,u:UU,up:UP},data||{});
   var inGAS=!!(window.google&&google.script&&google.script.run);
