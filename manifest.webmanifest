@@ -2,7 +2,7 @@
   "name": "SIPERPUS – Bagian Literasi 2026",
   "short_name": "SIPERPUS",
   "description": "Sistem peminjaman perpustakaan Bagian Literasi 2026",
-  "id": "./",
+ "id": "./?v=2",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
